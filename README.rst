@@ -52,6 +52,15 @@ Go to any content type on your site and append **@@import** to the url, for inst
     http://localhost:8080/@@import
 
 
+Terminal Commands
+====================
+
+::
+
+    kotti-clone-db [OPTIONS] CONFIG_FILE POSTGRES_URL
+
+
+
 Development
 ===========
 

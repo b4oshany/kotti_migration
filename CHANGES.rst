@@ -1,7 +1,12 @@
 History
 =======
 
-0.1.1 - Beta 2 Release
+0.1.2 - Beta Release 3
+------------------------
+
+- Added a database clone script
+
+0.1.1 - Beta Release 2
 -------------------------
 
 - Changed migration.ignores to migration.ignore_content_types
