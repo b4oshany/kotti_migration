@@ -37,7 +37,7 @@ def includeme(config):
     """
     config.add_static_view('static-kotti_migration', 'kotti_migration:static')
 
-    m_ignores = config.registry.settings.get("migration.ignores", "")
+    m_ignores = config.registry.settings.get("migration.ignore_content_types", "")
     km_config.ignore_content_types = m_ignores.split("\n")
 
 

@@ -46,7 +46,8 @@ The snippet below should be placed in your ini file::
 Usage
 ======
 
-Go to any content type on your site and append ***@@import*** to the url, for instance::
+Go to any content type on your site and append **@@import** to the url, for instance::
+
 
     http://localhost:8080/@@import
 
