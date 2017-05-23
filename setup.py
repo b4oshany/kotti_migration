@@ -13,7 +13,7 @@ try:
 except IOError:
     CHANGES = ''
 
-version = "0.1.2"
+version = "0.1.3"
 
 install_requires = [
     'Kotti>=1.0.0',
@@ -52,7 +52,7 @@ setup(
             'kotti_migration = kotti_migration.fanstatic:library',
         ],
         'console_scripts': [
-            'kotti-clone-db = scripts.migrator:clone_db',
+            'kotti-clone-db = kotti_migration.scripts.migrator:clone_db',
         ]
     },
     extras_require={},

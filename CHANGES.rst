@@ -1,6 +1,11 @@
 History
 =======
 
+0.1.3 0 Beta Release 4
+--------------------------
+
+- Change directory location of the scripts folder.
+
 0.1.2 - Beta Release 3
 ------------------------
 

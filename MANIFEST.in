@@ -1,3 +1,2 @@
 include requirements.txt
 recursive-include kotti_migration *
-recursive-include scripts *
